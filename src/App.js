@@ -6,6 +6,7 @@ import { About } from './pages/About';
 import { Profile } from './pages/Profile';
 import { Alert } from './component/Alert';
 import { AlertState } from './context/alert/AlertState';
+import { GithubState } from './context/github/GithubState';
 
 
 
