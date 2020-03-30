@@ -17,7 +17,7 @@ export const Home = () => {
                 {
                 loading ? <p className="text-center">Загрузка...</p> :
                 users.map(user => (
-                            <div className="col-sm-4 mb-4" key={user.id}>
+                            <div className="col-sm-4 col-md-3 mb-4 col-lg-2" key={user.id}>
                         <Card user={user}/>
                     </div>
                         )
